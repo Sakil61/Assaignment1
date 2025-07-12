@@ -1,5 +1,8 @@
 
 
+body{
+    background-color: #D6DDED;
+}
 .inter-normal {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -115,5 +118,53 @@ border-radius: 141px 156px 116px 1370x;
    
 }
 .Big-bann{
+     display: flex;
+    width: 1150;
+    height: 700;
+    justify-content: center;
+   
+   
+}
+.big1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+}
+.small1{
+   color: #000000;
+}
+.big-img{
+    width: 840;
+    height: 370;
+    border-radius: 48px;
+    margin-top: 20px;
+}
+.all1{
+    text-align: center;
+}
+.sec-title{
+    font-size: 80px;
+}
+.last-lav{
+    padding: 150px 200px;
+    display: flex;
+    gap: 115px;
     
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  height: 71px;
+  border-radius: 10px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 32px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  box-sizing: border-box;
+  color: #000000;
+  font-size:15px;
 }
