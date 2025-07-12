@@ -129,9 +129,7 @@ nav ul li {
     justify-content: center;
     background-color: #D6DDED;
 }
-.box{
-background-color: #D6DDED;
-}
+
 .box-cont{
     
     font-weight: bold;
@@ -150,6 +148,7 @@ background-color: #D6DDED;
 }
 .review{
     display: flex;
+    background-color: #D6DDED;
 
     
 }
