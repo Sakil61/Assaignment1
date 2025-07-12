@@ -2,6 +2,8 @@
 
 body{
     background-color: #D6DDED;
+    margin-top:0px;
+    border-top: none;
 }
 .inter-normal {
     font-family: "Inter", sans-serif;
@@ -13,7 +15,9 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 150px;
+    margin:0px;
+    padding: 20px 40px;
+    margin-bottom:50px ;
 }
 nav ul{
     display: flex;
@@ -22,6 +26,7 @@ nav ul{
 .nav-titale{
     font-weight:700;
     font-size:34px;
+    color: #4E47FF;
 }
 nav ul li {
     list-style: none;
@@ -34,8 +39,17 @@ nav ul li {
    font-weight: bold;
    color: white;
 }
+.bt-second{
+    padding:12px;
+   border-radius:15px;
+   background-color: #4E47FF;
+   font-size: 16px;
+   font-weight: bold;
+   color: white;
+   margin-bottom: 152px;
+}
 .bannar{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     text-align: center;
 }
@@ -68,28 +82,55 @@ nav ul li {
 .secon-main{
     width: 517;
 }
-.uses{
-    display: flex;
-      justify-content: center;
-      gap: 50px;
-      font-weight: bold;
-      color: #4F46E5;
-      font-size: 50px;
-      
-}
-.uses-main{
+.uses-main {
     background: #EEF0FC;
     text-align: center;
-border-radius: 141px 156px 116px 1370x;
-}
+    border-radius:10px;
+    padding: 40px 20px;
+    margin: 141px 116px;
+  }
+
+  .uses-main h2,
+  .uses-main small {
+    color: #252432;
+  }
+
+  .uses {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-weight: bold;
+    color: #4F46E5;
+    font-size: 50px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+
+  .uses div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .uses small {
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  
+  .uses-main a {
+    text-decoration: none;
+  }
+
 .testimonials{
     display: flex;
     margin: 50px 133px 151px 151px;
     gap: 50px;
     justify-content: center;
+    background-color: #D6DDED;
 }
 .box{
-
+background-color: #D6DDED;
 }
 .box-cont{
     
